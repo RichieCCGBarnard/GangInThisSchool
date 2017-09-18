@@ -6,6 +6,6 @@ Instrument bdk
 bdk = note:GetInstrument(66)
 note:SetInstrument(bdk)
 
-note:Play(40,1)
+note:Play(40,1.0)
 
 note:Close()

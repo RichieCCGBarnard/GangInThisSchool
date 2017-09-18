@@ -1,0 +1,11 @@
+use Libraries.Sound.Music
+use Libraries.Sound.Instrument
+Music note
+Instrument bdk
+
+bdk = note:GetInstrument(66)
+note:SetInstrument(bdk)
+
+note:Play(40,1)
+
+note:Close()
